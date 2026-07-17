@@ -2,7 +2,7 @@
 
 A minimal, public MCP (Model Context Protocol) test server. Exists solely as a
 live, whitelisted test fixture for `QuietiSentinel.Infrastructure`'s `McpClient`
-(Night 15) - not a real capability.
+
 
 Built with the official `ModelContextProtocol.AspNetCore` SDK, Streamable HTTP
 transport, stateless mode - the same proven pattern as the GuidanceAssistant demo
@@ -21,7 +21,7 @@ transport, stateless mode - the same proven pattern as the GuidanceAssistant dem
 - `GET /` - liveness check (plain text, confirms the container is up)
 - `POST /mcp` - the MCP Streamable HTTP endpoint
 
-No authentication - this is a public test fixture, same as GuidanceAssistant's `/mcp`.
+No authentication - this is a public test fixture.
 
 ## Deploying to Render
 
